@@ -25,6 +25,8 @@ You can install the main dependency using pip:
 ```bash
 pip install scipy
 
+```
+
 Example: In cub_200_json.py, you must change this line:
 
 # Before
@@ -32,3 +34,15 @@ root_dir = '/home/praful/scratch/petl/fgvc/CUB_200_2011'
 
 # After (example)
 root_dir = '/my/local/path/to/CUB_200_2011'
+
+FGVC comprises 5 fine-grained visual classification dataset. The datasets can be downloaded following the official links. We split the training data if the public validation set is not available. The splitted dataset can be found here: [Download Link](https://huggingface.co/datasets/XiN0919/FGVC/resolve/main/json.zip?download=true).
+  
+     - [CUB200 2011](https://data.caltech.edu/records/65de6-vp158)
+   
+     - [NABirds](http://info.allaboutbirds.org/nabirds/)
+   
+     - [Oxford Flowers](https://www.robots.ox.ac.uk/~vgg/data/flowers/)
+   
+     - [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/main.html)
+   
+     - [Stanford Cars](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
